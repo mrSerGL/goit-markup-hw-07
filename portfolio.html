@@ -25,22 +25,26 @@
     <!-- ===== HEADER ===== -->
 
     <header class="header">
-      <div class="header-content container">
-        <a class="logo-link link" href="./index.html">
-          <span class="logo-header-one">Web</span><span class="logo-header-two">Studio</span></a
+      <div class="header__container container">
+        <a class="logo link" href="./index.html">
+          <span class="logo__text-one">Web</span><span class="logo__text-two">Studio</span></a
         >
 
-        <nav class="navigation">
-          <ul class="nav-list list">
-            <li class="nav-list-item">
-              <a class="nav-link link" href="./index.html">Студія</a>
+        <!-- ===== nav menu ===== -->
+
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link current" href="./index.html">Студія</a>
             </li>
-            <li class="nav-list-item">
-              <a class="nav-link link current" href="./portfolio.html">Портфоліо</a>
+            <li class="nav__item">
+              <a class="nav__link link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="nav-list-item"><a class="nav-link link" href="">Контакти</a></li>
+            <li class="nav__item"><a class="nav__link link" href="">Контакти</a></li>
           </ul>
         </nav>
+
+        <!-- ===== contacts header ===== -->
 
         <ul class="mail-tel-list list">
           <li class="mail-tel-item link">
@@ -306,9 +310,13 @@
         <h2 class="visually-hidden">Контакти і адреса</h2>
 
         <div class="footer-part-one">
-          <a class="logo-link link" href="./index.html">
-            <span class="logo-footer-one">Web</span><span class="logo-footer-three">Studio</span></a
+          <a class="logo link" href="./index.html">
+            <span class="logo__text-one">Web</span
+            ><span class="logo__text-two logo__text-two--white">Studio</span></a
           >
+
+          <!-- === address === -->
+
           <address class="footer-address">
             <ul class="list">
               <li class="address-items">
@@ -332,10 +340,10 @@
           </address>
         </div>
 
+        <!-- === soc networks === -->
+
         <div class="footer-part-two">
           <p class="footer-social-title">приєднуйтесь</p>
-
-          <!-- === soc networks === -->
 
           <ul class="footer-social-list list">
             <li class="footer-social-item">
@@ -403,6 +411,7 @@
                   name="email"
                   placeholder=" "
                   id="email"
+                  required
                 />
                 <label class="footer-form-label" for="email">E-mail</label>
               </div>
