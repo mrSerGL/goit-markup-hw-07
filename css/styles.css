@@ -577,18 +577,18 @@ body {
 
 /* === soc netw === */
 
-.team-social-list {
+.soc-networks {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-.team-social-item:not(:last-child) {
+.soc-networks__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.team-social-link {
+.soc-networks__link {
   display: flex;
 
   align-items: center;
@@ -606,34 +606,15 @@ body {
   transition-timing-function: var(--function-transition);
 }
 
-.team-social-svg {
+.soc-networks__img {
   fill: currentColor;
 }
 
-.team-social-link:hover,
-.team-social-link:focus {
+.soc-networks__link:hover,
+.soc-networks__link:focus {
   background-color: var(--accent-text-color);
   color: #fff;
 }
-
-/* background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px; */
-
-/* ===== Иконки соцсетей сделаные как фон =====
-
-.team-social-link.instagram-link {
-  background-image: url(../images/soc-networks/instagram.svg);
-}
-.team-social-link.twitter-link {
-  background-image: url(../images/soc-networks/twitter.svg);
-}
-.team-social-link.facebook-link {
-  background-image: url(../images/soc-networks/facebook.svg);
-}
-.team-social-link.linkedin-link {
-  background-image: url(../images/soc-networks/linkedin.svg);
-} */
 
 /* ===== clients section ===== */
 
