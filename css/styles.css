@@ -447,12 +447,13 @@ body {
   margin-right: 30px;
 }
 
-.benefits__picture {
+.benefits__item--flex {
   display: flex;
-
   align-items: center;
   justify-content: center;
+}
 
+.benefits__link {
   width: 270px;
   height: 120px;
   background-color: var(--background-section-two);
@@ -493,12 +494,12 @@ body {
   width: calc((100% - 60px) / 3);
 }
 
-.mission__item:not(:nth-child(3n)) {
-  margin-right: 30px;
+.mission__item--position {
+  position: relative;
 }
 
-.mission__item--box {
-  position: relative;
+.mission__item:not(:nth-child(3n)) {
+  margin-right: 30px;
 }
 
 .mission__label {
@@ -522,21 +523,21 @@ body {
 
 /* ===== team ===== */
 
-.team {
+.team-section {
   background-color: var(--background-section-two);
 }
 
-.team-list {
+.team {
   display: flex;
   flex-wrap: wrap;
 }
 
-.team-list-item {
+.team__item {
   display: inline-block;
   width: calc((100% - 90px) / 4);
 }
 
-.team-list-item:not(:nth-child(4n)) {
+.team__item:not(:nth-child(4n)) {
   margin-right: 30px;
 }
 
