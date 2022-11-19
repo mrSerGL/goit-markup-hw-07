@@ -44,7 +44,7 @@
 
 .address__map:hover,
 .address__map:focus {
-  color: #2196f3;
+  color: var(--accent-text-color);
 }
 
 .address__email:hover,
