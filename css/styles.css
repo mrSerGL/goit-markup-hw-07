@@ -575,13 +575,17 @@ body {
   margin-bottom: 16px;
 }
 
-/* === soc netw === */
+/* === team soc netw === */
 
 .soc-networks {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+.soc-networks {
+  margin-bottom: 30px;
 }
 
 .soc-networks__item:not(:last-child) {
@@ -667,7 +671,7 @@ body {
   padding-bottom: 60px;
 }
 
-.footer-parts {
+.footer--flex {
   display: flex;
   align-items: baseline;
 }
@@ -740,6 +744,8 @@ body {
   width: 206px;
 }
 
+/* = footer soc-networks = */
+
 .footer-social-title {
   font-weight: 700;
   line-height: 1.14;
@@ -750,42 +756,12 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-social-list {
-  display: flex;
-  flex-wrap: wrap;
-
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-social-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.footer-social-link {
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-
-  width: 44px;
-  height: 44px;
-
+.soc-networks__link--background {
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-
-  transition-property: background-color;
-  transition-duration: var(--time-transition);
-  transition-timing-function: var(--function-transition);
 }
 
-.footer-social-icon {
+.soc-networks__img--fill {
   fill: var(--fill-footer-socials);
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--accent-text-color);
 }
 
 /* === footer part three === */
