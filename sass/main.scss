@@ -2,6 +2,7 @@
 @import '../sass/utils/first';
 @import '../sass/utils/variables';
 @import '../sass/utils/utility';
+@import '../sass/utils/animation';
 
 // base styles
 @import '../sass/base/base';
@@ -12,3 +13,10 @@
 @import '../sass/components/index/nav';
 @import '../sass/components/index/contacts';
 @import '../sass/components/index/hero';
+@import '../sass/components/index/benefits';
+@import '../sass/components/index/mission';
+@import '../sass/components/index/soc-networks';
+@import '../sass/components/index/team';
+@import '../sass/components/index/clients';
+@import '../sass/components/index/footer';
+@import '../sass/components/index/modal';
