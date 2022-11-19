@@ -3,8 +3,12 @@
 @import '../sass/utils/variables';
 @import '../sass/utils/utility';
 
-
 // base styles
 @import '../sass/base/base';
 
 // components styles
+@import '../sass/components/index/header';
+@import '../sass/components/index/logo';
+@import '../sass/components/index/nav';
+@import '../sass/components/index/contacts';
+@import '../sass/components/index/hero';
