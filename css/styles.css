@@ -618,11 +618,7 @@ body {
 
 /* ===== clients section ===== */
 
-.section-clients-title {
-  margin-bottom: 51px;
-}
-
-.clients-logos-list {
+.clients__list {
   display: flex;
   flex-wrap: wrap;
 
@@ -630,11 +626,11 @@ body {
   justify-content: center;
 }
 
-.clients-logos-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-logos-link {
+.clients__link {
   display: flex;
 
   justify-content: center;
@@ -653,13 +649,13 @@ body {
   transition-timing-function: var(--function-transition);
 }
 
-.clients-logos-logo {
-  fill: currentColor;
+.clients__link:hover,
+.clients__link:focus {
+  color: var(--accent-text-color);
 }
 
-.clients-logos-link:hover,
-.clients-logos-link:focus {
-  color: var(--accent-text-color);
+.clients__logo {
+  fill: currentColor;
 }
 
 /* ========== FOOTER ==========*/
