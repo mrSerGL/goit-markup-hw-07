@@ -697,42 +697,42 @@ body {
 
 /* = footer address = */
 
-.footer-address {
+.address {
   font-style: normal;
   margin-top: 20px;
 }
 
-.address-item-one {
+.address__map {
   line-height: 1.71;
   color: #ffffff;
 }
 
-.address-item-two,
-.address-item-three {
+.address__email,
+.address__tel {
   line-height: 1.71;
 
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-address .address-items:not(:last-child) {
+.address .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.address-item-one:hover,
-.address-item-one:focus {
+.address__map:hover,
+.address__map:focus {
   color: #2196f3;
 }
 
-.address-item-two:hover,
-.address-item-three:hover,
-.address-item-two:focus,
-.address-item-three:focus {
+.address__email:hover,
+.address__tel:hover,
+.address__email:focus,
+.address__tel:focus {
   color: #ffffff;
 }
 
-.address-item-one,
-.address-item-two,
-.address-item-three {
+.address__map,
+.address__email,
+.address__tel {
   transition-property: color;
   transition-duration: var(--time-transition);
   transition-timing-function: var(--function-transition);
