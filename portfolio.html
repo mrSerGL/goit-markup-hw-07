@@ -306,46 +306,46 @@
     <!-- ===== FOOTER =====   -->
 
     <footer class="footer">
-      <div class="container footer-parts">
+      <div class="footer--flex container">
         <h2 class="visually-hidden">Контакти і адреса</h2>
 
-        <div class="footer-part-one">
+        <div class="footer__logo">
           <a class="logo link" href="./index.html">
             <span class="logo__text-one">Web</span
             ><span class="logo__text-two logo__text-two--white">Studio</span></a
           >
 
-          <!-- === address === -->
+          <!-- === footer__address === -->
 
-          <address class="footer-address">
+          <address class="footer__address">
             <ul class="list">
-              <li class="address-items">
+              <li class="address__item">
                 <a
-                  class="address-item-one link"
+                  class="address__map link"
                   href="https://goo.gl/maps/MKDDi8GhxzNny77W8"
                   target="_blank"
                   rel="noopener noreferrer"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="address-items">
-                <a class="address-item-two link" href="mailto:info@devstudio.com"
+              <li class="address__item">
+                <a class="address__email link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="address-items">
-                <a class="address-item-three link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="address__item">
+                <a class="address__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
 
-        <!-- === soc networks === -->
+        <!-- === footer soc-networks === -->
 
-        <div class="footer-part-two">
-          <p class="footer-social-title">приєднуйтесь</p>
+        <div class="footer__soc-networks">
+          <p class="soc-networks__title">приєднуйтесь</p>
 
-          <ul class="footer-social-list list">
+          <!-- <ul class="footer-social-list list">
             <li class="footer-social-item">
               <a
                 class="footer-social-link link"
@@ -390,6 +390,64 @@
                 rel="nofollow noopener noreferrer"
               >
                 <svg class="footer-social-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul> -->
+
+          <ul class="soc-networks list">
+            <li class="soc-networks__item">
+              <a
+                class="soc-networks__link soc-networks__link--background link"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="soc-networks__item">
+              <a
+                class="soc-networks__link soc-networks__link--background link"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="Twitter"
+              >
+                <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="soc-networks__item">
+              <a
+                class="soc-networks__link soc-networks__link--background link"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="soc-networks__item">
+              <a
+                class="soc-networks__link soc-networks__link--background link"
+                href=""
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label="Linkedin"
+              >
+                <svg class="soc-networks__img soc-networks__img--fill" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
