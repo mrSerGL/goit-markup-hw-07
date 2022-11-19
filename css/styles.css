@@ -684,7 +684,7 @@ body {
 
 /* .footer-part-one,
 .footer-part-two,
-.footer-part-three {
+.footer__subscribe {
   display: block;
 } */
 
@@ -761,11 +761,11 @@ body {
 
 /* === footer__subscribe === */
 
-.footer-part-three {
+.footer__subscribe {
   margin-left: auto;
 }
 
-.footer-subscribe-title {
+.subscribe__title {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
