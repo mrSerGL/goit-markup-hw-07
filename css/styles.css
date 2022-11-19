@@ -277,22 +277,17 @@ body {
 
 /* ===== header mail telephone ===== */
 
-.mail-tel-list {
+.contacts__list {
   display: flex;
   margin-left: auto;
   align-items: center;
 }
 
-.mail-tel-item {
-  margin: 0;
-}
-
-.mail-tel-list .mail-tel-item:not(:last-child) {
+.contacts__list .contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.mail-header-link,
-.phone-header-link {
+.contacts__link {
   display: flex;
   align-items: center;
 
@@ -308,45 +303,15 @@ body {
   transition-timing-function: var(--function-transition);
 }
 
-.header-tel-icon {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.mail-header-link:hover,
-.mail-header-link:focus,
-.phone-header-link:hover,
-.phone-header-link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
   color: var(--accent-text-color);
 }
-
-/* .mail-header::before {
-  content: '';
-  display: inline-block;
-
-  width: 16px;
-  height: 10px;
-  margin-right: 10px;
-
-  background-image: url(../images/header/email.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.phone-header::before {
-  content: '';
-  display: inline-block;
-
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-
-  background-image: url(../images/header/smartphone.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-} */
 
 /* ===== MAIN ===== */
 
