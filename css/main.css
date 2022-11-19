@@ -12,6 +12,7 @@ html {
 
 *:focus {
   border-color: transparent;
+  outline-color: transparent;
 }
 
 :root {
