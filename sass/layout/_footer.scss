@@ -29,6 +29,11 @@
 .address__map {
   line-height: 1.71;
   color: #ffffff;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
 }
 
 .address__email,
@@ -40,11 +45,6 @@
 
 .footer__address .address__item:not(:last-child) {
   margin-bottom: 9px;
-}
-
-.address__map:hover,
-.address__map:focus {
-  color: var(--accent-text-color);
 }
 
 .address__email:hover,
