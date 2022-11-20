@@ -102,16 +102,16 @@
   margin-bottom: 20px;
 }
 
-.form--flex {
+.form-subscribe--flex {
   display: flex;
 }
 
-.form--position {
+.form-subscribe--position {
   position: relative;
   overflow: hidden;
 }
 
-.form__email-input {
+.form-subscribe__email-input {
   display: flex;
   align-items: center;
 
@@ -139,7 +139,7 @@
   transition-timing-function: var(--function-transition);
 }
 
-.footer-form-label {
+.form-subscribe__label {
   position: absolute;
 
   top: 50%;
@@ -152,19 +152,19 @@
 
   transform: translate(0, -50%);
 
-  /* поднимает footer-form-label и не опускает если показывает значение placeholder */
+  /* поднимает form__label и не опускает если показывает значение placeholder */
 }
 
-.form__email-input:focus + .footer-form-label,
-.form__email-input:not(:placeholder-shown) + .footer-form-label {
+.form-subscribe__email-input:focus + .form-subscribe__label,
+.form-subscribe__email-input:not(:placeholder-shown) + .form-subscribe__label {
   transform: translate(0, -50px);
 }
 
-.form__email-input:hover + .footer-form-label {
+.form-subscribe__email-input:hover + .form-subscribe__label {
   color: #757575;
 }
 
-.form__email-input:hover {
+.form-subscribe__email-input:hover {
   animation-name: changeBgColor;
   animation-duration: 250ms;
   animation-timing-function: linear;
@@ -173,7 +173,7 @@
   background-color: #fff;
 }
 
-.form__email-input:focus {
+.form-subscribe__email-input:focus {
   background-color: #fff;
   outline: transparent;
   color: #000000;

@@ -1,29 +1,14 @@
 // utils styles
-@import '../sass/utils/first';
-@import '../sass/utils/variables';
-@import '../sass/utils/utility';
-@import '../sass/utils/animation';
+@import '../sass/utils/utils';
 
 // base styles
 @import '../sass/base/base';
 
 // layout styles
-@import '../sass/layout/header';
-@import '../sass/layout/logo';
-@import '../sass/layout/nav';
-@import '../sass/layout/contacts';
-@import '../sass/layout/footer';
+@import '../sass/layout/layout';
 
 // components styles INDEX page
-@import '../sass/components/index/hero';
-@import '../sass/components/index/benefits';
-@import '../sass/components/index/mission';
-@import '../sass/components/index/soc-networks';
-@import '../sass/components/index/team';
-@import '../sass/components/index/clients';
-
-@import '../sass/components/index/modal';
+@import '../sass/components/index/index-page';
 
 // components styles PORTFOLIO page
-@import '../sass/components/portfolio/filters';
-@import '../sass/components/portfolio/portfolio';
+@import '../sass/components/portfolio/portfolio_page';
