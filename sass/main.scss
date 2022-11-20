@@ -7,18 +7,21 @@
 // base styles
 @import '../sass/base/base';
 
+// layout styles
+@import '../sass/layout/header';
+@import '../sass/layout/logo';
+@import '../sass/layout/nav';
+@import '../sass/layout/contacts';
+@import '../sass/layout/footer';
+
 // components styles INDEX page
-@import '../sass/components/index/header';
-@import '../sass/components/index/logo';
-@import '../sass/components/index/nav';
-@import '../sass/components/index/contacts';
 @import '../sass/components/index/hero';
 @import '../sass/components/index/benefits';
 @import '../sass/components/index/mission';
 @import '../sass/components/index/soc-networks';
 @import '../sass/components/index/team';
 @import '../sass/components/index/clients';
-@import '../sass/components/index/footer';
+
 @import '../sass/components/index/modal';
 
 // components styles PORTFOLIO page

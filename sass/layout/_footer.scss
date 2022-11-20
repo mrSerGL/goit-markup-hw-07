@@ -102,16 +102,16 @@
   margin-bottom: 20px;
 }
 
-.footer-email-input {
+.form--flex {
   display: flex;
 }
 
-.footer-form-field-input {
+.form--position {
   position: relative;
   overflow: hidden;
 }
 
-.footer-form-input {
+.form__email-input {
   display: flex;
   align-items: center;
 
@@ -155,16 +155,16 @@
   /* поднимает footer-form-label и не опускает если показывает значение placeholder */
 }
 
-.footer-form-input:focus + .footer-form-label,
-.footer-form-input:not(:placeholder-shown) + .footer-form-label {
+.form__email-input:focus + .footer-form-label,
+.form__email-input:not(:placeholder-shown) + .footer-form-label {
   transform: translate(0, -50px);
 }
 
-.footer-form-input:hover + .footer-form-label {
+.form__email-input:hover + .footer-form-label {
   color: #757575;
 }
 
-.footer-form-input:hover {
+.form__email-input:hover {
   animation-name: changeBgColor;
   animation-duration: 250ms;
   animation-timing-function: linear;
@@ -173,7 +173,7 @@
   background-color: #fff;
 }
 
-.footer-form-input:focus {
+.form__email-input:focus {
   background-color: #fff;
   outline: transparent;
   color: #000000;
