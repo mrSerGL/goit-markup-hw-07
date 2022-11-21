@@ -184,31 +184,4 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-
-  width: 200px;
-  height: 50px;
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-
-  color: var(--button-text-color-one);
-
-  background: var(--button-background-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-
-  transition-property: background-color;
-  transition-duration: var(--time-transition);
-  transition-timing-function: var(--function-transition);
-}
-
-.footer-button-subscribe:active {
-  background-color: var(--button-active-color);
-}
-
-.footer-button-subscribe:hover,
-.footer-button-subscribe:focus {
-  background-color: var(--button-hover-color);
 }

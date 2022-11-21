@@ -144,11 +144,33 @@ body {
 }
 
 .btn {
-  display: block;
   font-family: inherit;
   cursor: pointer;
   border: none;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--button-text-color-one);
+  background-color: var(--button-background-color);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: var(--time-transition);
+          transition-duration: var(--time-transition);
+  -webkit-transition-timing-function: var(--function-transition);
+          transition-timing-function: var(--function-transition);
+}
+.btn:hover, .btn:focus {
+  background-color: var(--button-hover-color);
+}
+.btn:active {
+  background-color: var(--button-active-color);
 }
 
 .section {
@@ -493,32 +515,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 10px;
-  width: 200px;
-  height: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--button-text-color-one);
-  background: var(--button-background-color);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: var(--time-transition);
-          transition-duration: var(--time-transition);
-  -webkit-transition-timing-function: var(--function-transition);
-          transition-timing-function: var(--function-transition);
-}
-
-.footer-button-subscribe:active {
-  background-color: var(--button-active-color);
-}
-
-.footer-button-subscribe:hover,
-.footer-button-subscribe:focus {
-  background-color: var(--button-hover-color);
 }
 
 .hero {
@@ -557,32 +553,10 @@ body {
 }
 
 .hero__button {
-  display: inline-block;
   min-width: 216px;
-  min-height: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
   letter-spacing: 0.05em;
-  color: var(--background-section-one);
-  background-color: var(--button-background-color);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   padding: 10px 32px;
   text-align: center;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: var(--time-transition);
-          transition-duration: var(--time-transition);
-  -webkit-transition-timing-function: var(--function-transition);
-          transition-timing-function: var(--function-transition);
-}
-.hero__button:active {
-  background-color: var(--button-active-color);
-}
-.hero__button:hover, .hero__button:focus {
-  background-color: var(--button-hover-color);
 }
 
 .benefits {
@@ -1180,32 +1154,6 @@ body {
   color: #2196f3;
 }
 
-.form-button {
-  display: inline-block;
-  width: 200px;
-  height: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--button-text-color-one);
-  background: var(--button-background-color);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  -webkit-transition-property: background-color;
-  transition-property: background-color;
-  -webkit-transition-duration: var(--time-transition);
-          transition-duration: var(--time-transition);
-  -webkit-transition-timing-function: var(--function-transition);
-          transition-timing-function: var(--function-transition);
-}
-
-.form-button:hover,
-.form-button:focus {
-  background: var(--button-hover-color);
-}
-
 .form-checkbox {
   margin-bottom: 30px;
 }
@@ -1225,14 +1173,16 @@ body {
 }
 
 .filter__button {
+  width: auto;
+  height: 38px;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--headers-text-color);
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   padding: 6px 22px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   -webkit-transition-property: background-color, color, -webkit-box-shadow;
   transition-property: background-color, color, -webkit-box-shadow;
   transition-property: background-color, color, box-shadow;

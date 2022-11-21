@@ -9,17 +9,22 @@
 }
 
 .filter__button {
+  width: auto;
+  height: 38px;
+
   font-weight: 500;
-  font-size: 16px;
+
   line-height: 1.62;
-  text-align: center;
+
   letter-spacing: 0.03em;
 
   color: var(--headers-text-color);
 
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 
   padding: 6px 22px;
+
+  box-shadow: none;
 
   transition-property: background-color, color, box-shadow;
   transition-duration: var(--time-transition);
